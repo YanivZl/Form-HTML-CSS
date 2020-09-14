@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: inherit;
+}
+
+
+
+header, body, main, footer, nav, aside, section, div{
+    display: block;
+}
+
+body
+{
+    background-color: white;
+}
+
+header
+{
+    height: 54px;
+    width: 100vw;
+    border-bottom: solid gray 0.75px;
+}
+
+#logo
+{
+    position: relative;
+    top: 8px;
+    left: 11px;
+    width: 33px;
+    height: 33px;
+    margin-right: 104px;
+}
+
+#logo_2
+{
+    display: none;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 150px;
+    left: 550px;
+}
+
+.logos_header
+{
+    height: 22px;
+    width: 22px;
+    margin-left: 25px;
+    margin-top: 13px;
+}
+
+#posts_followers_following
+{
+    background-color: rgb(229 ,229 ,234);
+    width: 100%;
+    height: 85px;
+    border-bottom: solid gray 0.75px;
+}
+
+#posts_followers_following > div
+{
+    display: inline-block;
+    height: 100%;
+    width: 32.6%;
+}
+
+#posts_followers_following > div > div:first-child
+{
+    color: #262626;
+    font-weight: 600;
+    margin-top: 20%;
+}
+
+#posts_followers_following > div > div
+{
+    color: #8e8e8e;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: block;
+    text-align: center;
+    
+}
+
+#icons_view
+{
+    background-color: rgb(229 ,229 ,234);
+    border-bottom: solid gray 0.75px;
+    height: 44px;
+    width: 100%;
+}
+
+#icons_view > div
+{
+    display: inline-block;
+    width: 32.6%;
+    height: 100%;
+}
+
+#icons_view > div > svg
+{
+    position: relative;
+    top: 10px;
+    left: 38.375%;
+}
+
+.animate{
+    width: 32.6vw;
+    height: 32.6vw;
+    display: inline-block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 39px;
+    margin-bottom: 4px;
+    opacity: 0.9;
+}
+
+.fullscreen
+{
+    top: 0; 
+    left: 0; 
+    height: 80vh;
+    width: 100vw;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 39px;
+    margin-bottom: 4px;
+    opacity: 0.9;
+}
+
+.animte:hover
+{
+    opacity: 1;
+}
+
+#name
+{
+    background-color: rgb(10 , 132 , 255);
+}
+
+#password
+{
+    background-color: rgb(48, 209, 88);
+}
+
+#mail
+{
+    background-color: rgb(94, 92, 230);
+}
+
+#website
+{
+    background-color: rgb(255, 159, 10);
+}
+#phone
+{
+    background-color: rgb(255, 55, 95);
+}
+
+#coffee
+{
+    background-color: rgb(191, 90, 242);
+}
+
+#temperature
+{
+    background-color: rgb(255, 69, 58);
+}
+
+#address
+{
+    background-color: rgb(100, 210, 255);
+}
+
+#interests
+{
+    background-color: rgb(255, 214, 10);
+}
+
+#gender
+{
+    background-color: rgb(142, 142, 147);
+}
+
+#age
+{
+    background-color: rgb(44, 44, 46);
+}
+
+#submit
+{
+    background-color: gray;
+}
+
+#submit > label > svg
+{
+    position: relative;
+    top: 5px;
+}
+
+.form-control
+{
+    width: 50%;
+    height: 50px;
+    margin: 20% auto;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form-group , .form-check
+{
+    display: none;
+}
+
+.form-check > input
+{
+    height: 25px;
+    width: 25px;
+    margin-top: 30px;
+}
+
+.form-check > label
+{
+    margin-left: 20px;
+}
+.form-check
+{
+    margin-top: 10px;
+}
+
+input[type="submit"] 
+{ 
+    display: none;
+}
+
+h1
+{
+    display: none;
+}
+
+@media only screen and (min-width:450px)
+{
+    main
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vw;
+        background-color: rgb(142, 142, 147);
+        z-index: 99;
+    }
+
+    h1
+    {
+        position: relative;
+        top: 200px;
+        left: 350px;
+        display: flex;
+    }
+
+    main > h1:last-child
+    {
+        left: 250px;
+    }
+
+    #logo_2
+    {
+        display: inline;
+    }
+}
+
+#select
+{
+    width: 50%;
+    height: 50px;
+    max-width: 50% ;
+}
+
+
